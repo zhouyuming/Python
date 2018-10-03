@@ -1,13 +1,10 @@
 # -*- coding:utf-8 -*-
-
 import struct
 from socket import *
 import time
 import os
 
 def main():
-
-
 	#0. 获取要下载的文件名字:
 	downloadFileName = raw_input("请输入要下载的文件名:")	
 
